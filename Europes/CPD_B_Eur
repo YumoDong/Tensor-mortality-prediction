@@ -1,7 +1,8 @@
 
  %STEP 1: Import Data
-%Entering some parameters
-qq=20; %length of valiadation set
+% Initial settings
+
+qq=5; %length of valiadation/testing set (year), you can change it to change the forecasting horizon.
 
 T_begin=1950; %the begining year
 T_end=2014; % the ending year
@@ -1129,9 +1130,3 @@ for ci=1:cc;
     RMSE_countries(ci)=rms3d(gap);
 end
 
-
-leermse=Realob_new(:,:,kk)-lnm_xt_proj;
-RMSE_LC(kk,1)=rms3d(leermse); % [10 countries]'s RMSE by LEE-CARTER method
-end
-
-RMSE_LCall=sqrt((RMSE_LC(1,1)^2+RMSE_LC(2,1)^2+RMSE_LC(3,1)^2+RMSE_LC(4,1)^2+RMSE_LC(5,1)^2+RMSE_LC(6,1)^2+RMSE_LC(7,1)^2+RMSE_LC(8,1)^2+RMSE_LC(9,1)^2+RMSE_LC(10,1)^2)/10);
