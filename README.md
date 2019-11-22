@@ -14,7 +14,8 @@ The plots/tables were produced under the following software
    
 2. The MATLAB code for the Lee-Carter model is refered from the Appendix (figure 9) of this paper  https://pdfs.semanticscholar.org/427c/09210feca24b4b2cabc0d351231a0ffaa2a5.pdf.  
 You can also use other software to fit the Lee-Carter model since it is a famous model. Due to the copyright, we don't provide the code for Lee-Carter model.
-3. The data used here are central mortality rates (Mx_1x1), which should be downloaded and processed from The Human Mortality Database (https://www.mortality.org/)
+3. The data used here are central mortality rates (Mx_1x1), which should be downloaded and processed from The Human Mortality Database (https://www.mortality.org/). For convenience, we arrange the data to ".mat" format.
+
 
 Guidlines for Reproduction
 =========================
