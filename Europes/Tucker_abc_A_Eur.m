@@ -1,6 +1,6 @@
   %STEP 1: Import Data
-%Entering some parameters
-qq=5; %length of valiadation set
+% Initial settings
+qq=5; %length of valiadation/testing set (year), you can change it to change the forecasting horizon.
 
 T_begin=1922; %the begining year
 T_end=2014; % the ending year
