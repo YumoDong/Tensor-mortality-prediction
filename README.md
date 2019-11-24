@@ -10,8 +10,9 @@ The plots/tables were produced under the following software
 [Important Notes]:
 1. "Tensor Toolbox" is used to do the tensor decomposition. The homepage is http://www.sandia.gov/~tgkolda/TensorToolbox/.  
 "DSP System Toolbox" is used to calculate the RMSE/RMSFE. It can be downloaded in MATLAB.  
-"Econometrics Toolbox" is used to the fit time series model. It can be downloaded in MATLAB.  
-   
+"Econometrics Toolbox" is used to the fit time series model. It can be downloaded in MATLAB.   
+"Parallel Computing Toolbox" is used to do the parfor loop. It can be downloaded in MATLAB. 
+
 2. The MATLAB code for the Lee-Carter model is refered from the Appendix (figure 9) of this paper  https://pdfs.semanticscholar.org/427c/09210feca24b4b2cabc0d351231a0ffaa2a5.pdf.  
 You can also use other software to fit the Lee-Carter model since it is a famous model. Due to the copyright, we don't provide the code for Lee-Carter model.
 3. The data used here are central mortality rates (Mx_1x1), which should be downloaded and processed from The Human Mortality Database (https://www.mortality.org/). For convenience, we arrange the data to ".mat" format.
