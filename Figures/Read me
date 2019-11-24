@@ -4,6 +4,6 @@ We record the age-specific RMSFEs figures for three cases in Frame A.(Europeans,
 "RMSFE_A_US" records figures for US.  
 "RMSFE_A_UK" records figures for UK.  
 
-All RMSFEs are generated from the "Main code". They are all under the time frames of this paper. 
+All RMSFEs are generated from the "UK","US" and "Europes". They are all under the time frames of this paper. 
 
 If you want to change the time frames and redo the experiment, you need to record the RMSFEs yourself and draw the figures.
