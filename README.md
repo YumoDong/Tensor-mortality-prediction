@@ -1,5 +1,7 @@
 # Tensor-mortality-prediction
-Multi-population Mortality Forecasting using  Tensor Decomposition (Matlab Code)
+This directory provides codes to reproduce the results in the following paper:
+
+Dong, Y., Huang, F., Yu, H., & Haberman, S. (2019). Muti-population mortality forecasting using tensor decomposition, Working paper.
 
 Software Dependency
 ===================
